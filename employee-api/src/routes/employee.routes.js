@@ -14,4 +14,7 @@ router.get("/employees", employeeController.listAllEmployees);
 // rota responsável por listar um determinado funcionário por id:(GET):localhost:3000/api/employees/id
 router.get("/employees/:id", employeeController.findEmployeeById);
 
+// rota responsável por atualizar um determinado funcionário por id:(PUT):localhost:3000/api/employees/id
+router.put("/employees/:id", employeeController.updateEmployeeById);
+
 module.exports = router;
