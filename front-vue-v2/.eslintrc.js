@@ -9,6 +9,7 @@ module.exports = {
   },
   rules: {
     quotes: ["error", "double"],
+    "comma-dangle": ["error", "never"],
     "linebreak-style": ["error", "windows"],
     "no-console": process.env.NODE_ENV === "production" ? "warn" : "off",
     "no-debugger": process.env.NODE_ENV === "production" ? "warn" : "off"
